@@ -9,7 +9,40 @@ body{
 #container{
     width: 90%;
     margin: 0px auto;
+}
+header h1{
+    background: #badd9f;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    border-bottom: 1px solid #aaff00;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav{
+    background: black;
+    height: 50px;
+    border-bottom: 2.5px solid #ffffff;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10Px;
+    color:rgb(197, 240, 195);
+    font-size: 20px;
+    line-height: 30px;
 
+}
 
-
+.clear{
+    clear:both
+}
+#contenido{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: white;
+    padding: 40px;
 }
