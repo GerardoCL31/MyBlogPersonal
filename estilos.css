@@ -30,19 +30,24 @@ nav ul li{
     float: left;
     list-style: none;
     margin: 10Px;
-    color:rgb(197, 240, 195);
+    color:rgb(146, 151, 127);
     font-size: 20px;
     line-height: 30px;
 
 }
 
 .clear{
-    clear:both
+    clear: both;
 }
 #contenido{
     float: left;
-    width: calc(80% - 80px);
+    width: calc(90% - 100px);
     min-height: 500px;
-    background: white;
-    padding: 40px;
+    background: rgb(236, 8, 8);
+    padding: 50px;
+}
+
+.fother{
+    float: left;
+    
 }
